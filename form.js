@@ -1,6 +1,7 @@
 const modal = document.getElementById("popup");
 const btn = document.getElementById("addBook");
 const span = document.getElementsByClassName("close")[0];
+const close = document.querySelector('.close-window')
 const form = document.querySelector('.form');
 
 // When the user clicks on the button, open the modal
@@ -12,6 +13,10 @@ btn.onclick = function() {
 span.onclick = function() {
   modal.style.display = "none";
 }
+
+close.addEventListener('click', () =>{
+  modal.style.display = "none";
+});
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
