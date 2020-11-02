@@ -1,0 +1,51 @@
+/* The Modal (background) */
+
+.modal {
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  #modal-content {
+    border-radius: 10px;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  input{
+    border-right: none !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-radius: 0;
+    outline: none;
+    border: 1px solid;
+  }
+  
+  input[type = number]{
+    width: 100%;
+  }
+  input[type = text]{
+    width: 100%;
+  }
+  input[type = checkbox]{
+    width: 10%;
+  }

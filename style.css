@@ -1,0 +1,75 @@
+.table td{
+    text-align: center; 
+    vertical-align: middle !important;
+}
+.table th{
+    text-align: center; 
+    vertical-align: middle !important;
+}
+
+h1{
+    text-align: center;
+    padding: 1em;
+    font-weight: 700;
+    color: #ffc09f;
+}
+
+#addBook{
+    margin: 0em 5.5em 0em 2em;
+    position: fixed;
+    bottom: 0em;
+    right: 1em; 
+}
+
+.your-books{
+    margin: 1em 2em 1em 2em;
+    justify-self: center;
+    font-size: x-large;
+}
+
+.top-row{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.scrollable{
+    height: Calc(100vh - 320px);
+    overflow: auto;
+}
+
+.flaticon-add{
+    color: #ffc09f;
+}
+.flaticon-add:before{
+    font-size: 3.5em !important;
+    font-weight: 500;
+    transition: 0.15s;
+}
+.flaticon-add:hover{
+    color: #ff7933;
+}
+
+.bottom-text{
+    float:left;
+    margin-left: 4em;
+    margin-top: 1em;
+    color: gray;
+}
+
+.bottom{
+    background-color: black;
+}
+
+.btn-link{
+    color: #ff7933;
+}
+.btn-link:hover {
+    color: red !important;
+}
+.btn-link:active{
+    color: red;
+}
+
+
