@@ -1,4 +1,4 @@
-# library
+# Library
 You can add and remove books
 
 You can mark if you read the book
